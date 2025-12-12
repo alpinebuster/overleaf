@@ -3,11 +3,13 @@ This guide explains how to update **TeX Live** and install the **full TeX Live s
 
 ---
 
-## **1. Enter the ShareLaTeX Docker Container**
+## **1. Run & Enter the ShareLaTeX Docker Container**
 
 Use `docker exec` to open an interactive Bash shell inside the running ShareLaTeX container.
 
 ```bash
+# At project's root dir
+docker compose up -d
 docker exec -it sharelatex bash
 ```
 
